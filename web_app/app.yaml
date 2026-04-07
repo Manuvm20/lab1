@@ -1,1 +1,3 @@
-
+app.yaml
+reuntime:python39
+entrypoint:gunicorn_b:$port main:app
