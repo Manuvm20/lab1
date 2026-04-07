@@ -1,10 +1,4 @@
-main.py
-form flask import flask,render_template
-app=flask(__name__)
-@app.route('/')
-def home();
-return render_template('index.html',file="home page")
-if__name__=='__main__':from flask import Flask, render_template
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
